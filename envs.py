@@ -31,7 +31,7 @@ config.NUM_NPC = 1
 
 config.PLAYER_INIT_RADIUS = (0.0, 0.0)
 
-config.NPC_INIT_RADIUS = (0.1, 0.9)
+config.NPC_INIT_RADIUS = (0.1, 0.1)
 
 config.NPC_SKILL_COUNT = 1
 
