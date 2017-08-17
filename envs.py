@@ -216,10 +216,8 @@ class EnvExtension():
         hps = self._my_get_hps()
         delta_hps = hps[0] - self.last_hps[0], hps[1] - self.last_hps[1]
 
-        r_attack = -delta_hps[1]  # -1 -> 1
+        return 2*delta_hps[0] -delta_hps[1]
 
-        x = r_attack
-        return x
 
     def npc_hp(self):
         return self._my_get_hps()[1]
