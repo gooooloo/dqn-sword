@@ -173,8 +173,8 @@ def main():
     learn(
         env=envs.make_env(),
         render=render,
-        save_path='/tmp/hra.sword',
-        #restore_path='/tmp/hra.sword-10000',
+        save_path='/tmp/dqn.sword',
+        #restore_path='/tmp/dqn.sword-10000',
         summary_writer=summary_writer
     )
 
